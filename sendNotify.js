@@ -77,7 +77,7 @@ function serverNotify(text, desp) {
         }
     })
 }
-
+ 
 function BarkNotify(text, desp) {
     return  new Promise(resolve => {
         if (BARK_PUSH) {
